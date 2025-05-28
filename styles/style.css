@@ -5,6 +5,7 @@
   font-style: normal;
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 
 }
 
@@ -12,8 +13,12 @@ body{
 	min-height: 100vh;
 	background-image: linear-gradient(#ffffff, #ebdcff);
 }
+img{
+	width: 100%;
+}
 
 /* banner section styles start here  */
+
 
 .banner{
 	width: 90%;
@@ -50,10 +55,6 @@ body{
 
 .banner-image{
 	width: 50%;
-}
-
-.banner-image img{
-	width: 600px;
 }
 
 /* banner section styles end here  */
@@ -119,6 +120,7 @@ body{
 	text-align: center;
 	padding: 60px;
 	border-radius: 30px;
+	/* width: 50%; */
 
 }
 .service-card h4{
@@ -134,6 +136,7 @@ body{
 }
 .service-card img{
 	margin-bottom: 20px;
+	width: 50%;
 
 }
 /* service section card styles start here  */
@@ -150,7 +153,13 @@ body{
 .story-content h2,
 .story-content img,
 .story-content p{
-	margin-bottom: 24px;
+	margin-bottom: 8px;
+}
+.story-image{
+	width: 100%;
+}
+.story-content img{
+	width: 18%;
 }
 /* story card container styles end here  */
 
@@ -160,20 +169,16 @@ body{
 	gap: 20px;
   	flex-wrap: wrap;
 	justify-content: center;
-
 }
 .country-card{
 	text-align: center;
   	background-color: white;
 	padding: 40px;
 	border-radius: 16px;
-
-
 }
 .country-card img{
+	width: 50%;
 	border-radius: 16px;
-
-
 }
 .explore-btn{
 text-align: center;
@@ -195,10 +200,13 @@ margin-top: 40px;
 }
 .author-section{
 	display: flex;
-	align-items: end;
-	justify-items: end;
+	align-items: center;
 	justify-content: flex-end;
 	gap: 160px;
+	
+}
+.author-section img{
+	width: 20%;
 	
 }
 
