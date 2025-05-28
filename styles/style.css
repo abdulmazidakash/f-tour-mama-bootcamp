@@ -67,6 +67,7 @@ body{
 	color: white;
 	background-color: #872BFF;
 	cursor: pointer;
+	font-weight: 500;
 }
 .btn-white{
 	padding:  16px 32px;
@@ -75,13 +76,17 @@ body{
 
 	margin-right: 20px;
 	cursor: pointer;
+	font-weight: 500;
 }
 /* all button styles end here  */
 
 /* service section heading styles start here  */
-#service{
-width: 90%;
-margin: 0px auto 120px;
+#service,
+#story,
+#country
+{
+	width: 90%;
+	margin: 0px auto 120px auto;
 }
 .heading-content{
 	text-align: center;
@@ -101,7 +106,7 @@ margin: 0px auto 120px;
 
 }
 
-/* service section styles heading end here  */
+/* service section heading styles end here  */
 
 /* service section card styles start here  */
 .service-card-container{
@@ -131,3 +136,46 @@ margin: 0px auto 120px;
 
 }
 /* service section card styles start here  */
+
+/* story card container styles start here  */
+.story-card{
+	background-color: white;
+	padding: 40px;
+	display: flex;
+	gap: 32px;
+	border-radius: 24px;
+
+}
+.story-content h2,
+.story-content img,
+.story-content p{
+	margin-bottom: 24px;
+}
+/* story card container styles end here  */
+
+/* country section container styles starts here  */
+.country-card-container{
+	display: flex;
+	gap: 20px;
+  	flex-wrap: wrap;
+	justify-content: center;
+
+}
+.country-card{
+	text-align: center;
+  	background-color: white;
+	padding: 40px;
+	border-radius: 16px;
+
+
+}
+.country-card img{
+	border-radius: 16px;
+
+
+}
+.explore-btn{
+text-align: center;
+margin-top: 40px;
+}
+/* country section container styles end here  */
