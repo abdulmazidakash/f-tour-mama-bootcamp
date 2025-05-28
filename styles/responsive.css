@@ -3,6 +3,7 @@
 	.banner-content h1{
 		font-size: 48px;
 	}
+	
 }
 /* tablet responsive  */
 @media screen  and (max-width: 1024px){
@@ -16,10 +17,55 @@
 		width: 100%;
 		text-align: center;
 	}
+	.service-card{
+		padding: 40px;
+
+	}
+	.service-card-container{
+		flex-direction: column;
+	}
+	.story-image{
+		width: 100%;
+	}
+	.story-image{
+		height: 100%;
+	}
+	.story-card{
+		flex-direction: column;
+	}
+	.story-content {
+    width: 100%;
+}
+
+.author-section{
+	justify-content: space-between;
+}
+
+	
 }
 /* mobile responsive  */
 @media screen  and (max-width: 640px){
 	.banner-content h1{
 	font-size: 36px;
+	}
+	.heading-content h2{
+		font-size: 32px;
+	}
+	.country-card-container{
+		flex-direction: column;
+	}
+	.country-card{
+		padding: 70px;
+	}
+	.author-section{
+		flex-direction: column;
+		gap: 10px;
+	}
+	.author-section img{
+		width: 60%;
+	}
+	#footer{
+		flex-direction: column;
+		gap: 20px;
 	}
 }

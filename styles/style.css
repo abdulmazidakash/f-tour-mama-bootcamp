@@ -136,10 +136,10 @@ img{
 }
 .service-card img{
 	margin-bottom: 20px;
-	width: 50%;
+	width: 80px;
 
 }
-/* service section card styles start here  */
+/* service section card styles end here  */
 
 /* story card container styles start here  */
 .story-card{
@@ -155,11 +155,17 @@ img{
 .story-content p{
 	margin-bottom: 8px;
 }
-.story-image{
+/* .story-image{
+	width: 40%;
+} */
+/* .story-image img{
 	width: 100%;
-}
+} */
 .story-content img{
-	width: 18%;
+	width: 10%;
+}
+.story-content{
+	width: 70%;
 }
 /* story card container styles end here  */
 
