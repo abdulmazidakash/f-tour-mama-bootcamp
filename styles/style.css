@@ -1,0 +1,72 @@
+* {
+  font-family: "Playpen Sans Arabic", cursive;
+  font-optical-sizing: auto;
+  font-weight: 100, 200, 300, 400, 500, 600, 700, 800, 900;
+  font-style: normal;
+  margin: 0;
+  padding: 0;
+
+}
+
+body{
+	min-height: 100vh;
+	background-image: linear-gradient(#ffffff, #ebdcff);
+}
+
+.banner{
+	width: 90%;
+	border: 2px solid #872BFF10;
+	margin: 100px auto 120px auto;
+	padding: 20px 30px;
+	border-radius: 40px;
+
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-image: url('../images/hero-bg.png');
+	object-fit: cover;
+
+}
+.banner-content{
+	width: 50%;
+}
+
+.banner-content h1{
+	font-size: 70px;
+	font-weight: 900;
+}
+.banner-content h1 span{
+	color: #F411CF;
+}
+.banner-content *{
+	margin-bottom: 20px;
+}
+.banner-content p{
+	font-size: 18px;
+	font-weight: medium;
+}
+
+.btn{
+	padding:  16px 32px;
+	border-radius: 30px;
+	margin-right: 20px;
+
+	color: white;
+	background-color: #872BFF;
+	cursor: pointer;
+}
+.btn-white{
+	padding:  16px 32px;
+	border-radius: 30px;
+	border: 2px solid #872BFF;
+	margin-right: 20px;
+	cursor: pointer;
+}
+
+.banner-image{
+	width: 50%;
+}
+
+.banner-image img{
+	width: 600px;
+}
