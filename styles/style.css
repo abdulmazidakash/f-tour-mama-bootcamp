@@ -72,8 +72,62 @@ body{
 	padding:  16px 32px;
 	border-radius: 30px;
 	border: 2px solid #872BFF;
-	
+
 	margin-right: 20px;
 	cursor: pointer;
 }
 /* all button styles end here  */
+
+/* service section heading styles start here  */
+#service{
+width: 90%;
+margin: 0px auto 120px;
+}
+.heading-content{
+	text-align: center;
+
+}
+.heading-content h4{
+	color: #F411CF;
+	letter-spacing: 3px;
+	font-weight: 700;
+	font-size: 24px;
+
+}
+.heading-content h2{
+	font-weight: 700;
+	font-size: 44px;
+	margin-bottom: 60px;
+
+}
+
+/* service section styles heading end here  */
+
+/* service section card styles start here  */
+.service-card-container{
+	display: flex;
+	gap: 20px;
+}
+.service-card{
+	background-color: #FDFFFF;
+	text-align: center;
+	padding: 60px;
+	border-radius: 30px;
+
+}
+.service-card h4{
+	font-size: 24px;
+	font-weight: 700;
+	margin-bottom: 18px;
+
+}
+.service-card p{
+	color: #A8A8A8;
+	font-weight: 500;
+
+}
+.service-card img{
+	margin-bottom: 20px;
+
+}
+/* service section card styles start here  */
